@@ -10,7 +10,6 @@
 
 <?php
     $tresOuCinco=mt_rand(1,5);
-    echo $tresOuCinco."<br>";
     if($tresOuCinco == 3 || $tresOuCinco == 5){
         echo "o numero aleatorio é: ".$tresOuCinco."<br>"."<br>";
     } else if($tresOuCinco != 3){
