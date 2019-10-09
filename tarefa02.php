@@ -78,17 +78,8 @@ break;
 case 2:
 echo "i é igual a ".$i."<br>"."<br>";
 break;
-case 3:
-echo "i é igual a ".$i."<br>"."<br>";
-break;
-case 4:
-echo "i é igual a ".$i."<br>"."<br>";
-break;
-case 5:
-echo "i é igual a ".$i."<br>"."<br>";
-break;
-case 6:
-echo "i é igual a ".$i."<br>"."<br>";
+default:
+echo "i é diferente de 1 e 2"<br>"."<br>";
 break;
 }
 ?>
