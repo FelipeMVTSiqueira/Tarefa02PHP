@@ -91,6 +91,11 @@
     } else {
         if($x<$y){
             echo $y." é maior que ".$x."<br>"."<br>";
+        } else {
+            $x." é igual a ".$y."<br>"."<br>";
         }
     }
 ?>
+ <?php echo "vai caraio"."<br>"."<br>";?>
+
+
