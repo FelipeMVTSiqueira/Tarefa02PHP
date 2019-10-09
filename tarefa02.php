@@ -46,11 +46,47 @@
     }
 ?>
 
-<?php
-    $numeroEx8=19;
-    if($numeroEx8%2==0){
-        echo "O numero é par";
+<?php 
+    $quantidadeDeAlunos=(-100);
+    if($quantidadeDeAlunos){
+        echo "true"."<br>"."<br>";
     } else {
-        "O numero é impar";
+        echo "false"."<br>"."<br>";
     }
+?>
+
+<?php
+    if ($i == 1 ){
+        echo "true"."<br>"."<br>";
+        } else {
+        echo "false"."<br>"."<br>";
+        }
+?>
+
+<?php 
+    $numEx8=20;
+    $parImpar = ($numEx8%2==0) ? "O numero é par" : "O numero é impar";
+    echo $parImpar."<br>"."<br>";
+?>
+
+<?php
+    $i=mt_rand(1,5);
+switch ($i) {
+case 1:
+ echo "i é igual a ".$i."<br>"."<br>";
+break;
+case 2:
+echo "i é igual a ".$i."<br>"."<br>";
+case 3:
+break;
+case 4:
+echo "i é igual a ".$i."<br>"."<br>";
+break;
+case 5:
+echo "i é igual a ".$i."<br>"."<br>";
+break;
+case 6:
+echo "i é igual a ".$i."<br>"."<br>";
+break;
+}
 ?>
