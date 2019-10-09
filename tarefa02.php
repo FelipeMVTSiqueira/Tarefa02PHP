@@ -12,6 +12,8 @@
     $tresOuCinco=mt_rand(1,5);
     if($tresOuCinco == 3 || $tresOuCinco == 5){
         echo "o numero aleatorio é: ".$tresOuCinco;
-    } else "o nomero aleatorio é diferente de 3 ou 5";
+    } else if($tresOuCinco != 3){
+        echo "o numero não é 3 porra!";
+    } else echo $tresOuCinco;
 
 ?>
