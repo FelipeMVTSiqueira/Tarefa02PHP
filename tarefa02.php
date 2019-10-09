@@ -73,11 +73,13 @@
     $i=mt_rand(1,5);
 switch ($i) {
 case 1:
- echo "i é igual a ".$i."<br>"."<br>";
+echo "i é igual a ".$i."<br>"."<br>";
 break;
 case 2:
 echo "i é igual a ".$i."<br>"."<br>";
+break;
 case 3:
+echo "i é igual a ".$i."<br>"."<br>";
 break;
 case 4:
 echo "i é igual a ".$i."<br>"."<br>";
