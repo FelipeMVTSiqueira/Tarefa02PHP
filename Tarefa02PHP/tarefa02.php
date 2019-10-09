@@ -45,12 +45,3 @@
         echo "Boas vindas"."<br>"."<br>";
     }
 ?>
-
-<?php
-    $numeroEx8=19;
-    if($numeroEx8%2==0){
-        echo "O numero é par";
-    } else {
-        "O numero é impar";
-    }
-?>
