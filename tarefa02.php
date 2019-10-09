@@ -71,15 +71,27 @@
 
 <?php
     $i=mt_rand(1,5);
-switch ($i) {
-case 1:
-echo "i é igual a ".$i."<br>"."<br>";
-break;
-case 2:
-echo "i é igual a ".$i."<br>"."<br>";
-break;
-default:
-echo "i é diferente de 1 e 2"<br>"."<br>";
-break;
-}
+        switch ($i) {
+            case 1:
+                echo "i é igual a ".$i."<br>"."<br>";
+            break;
+            case 2:
+                echo "i é igual a ".$i."<br>"."<br>";
+            break;
+            default:
+                echo "i é diferente de 1 e 2"."<br>"."<br>";
+            break;
+        }
+?>
+
+<?php
+    $x=mt_rand(1,100);
+    $y=mt_rand(1,100);
+    if($x>$y){
+        echo $x." é maior que ".$y."<br>"."<br>";
+    } else {
+        if($x<$y){
+            echo $y." é maior que ".$x."<br>"."<br>";
+        }
+    }
 ?>
