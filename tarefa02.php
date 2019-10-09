@@ -45,3 +45,20 @@
         echo "Boas vindas"."<br>"."<br>";
     }
 ?>
+
+<?php 
+    $quantidadeDeAlunos=(-100);
+    if($quantidadeDeAlunos){
+        echo "true";
+    } else {
+        echo "false";
+    }
+?>
+
+<?php
+    if ($i == 1 ) {
+        echo "true";
+        } else {
+        echo "false";
+        }
+?>
